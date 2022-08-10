@@ -7615,7 +7615,8 @@ fieldset:disabled .btn {
 }
 
 .d-table {
-    display: table !important
+    display: flex !important;
+    justify-content: center;
 }
 
 .d-table-row {
