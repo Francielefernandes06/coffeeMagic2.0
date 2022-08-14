@@ -1,0 +1,57 @@
+.fun-facts-area {
+    background-color: var(--color-primary);
+    position: relative;
+    z-index: 1;
+    height: 30vh;
+  }
+  
+  .fun-facts-area.bg-color {
+    background-color: #eb0028;
+  }
+  
+  .fun-facts-area.bg-color .single-fun-fact h3 {
+    color: #ffffff;
+  }
+  
+  .fun-facts-area.bg-color .single-fun-fact h3 .sign-icon {
+    color: #ffffff;
+  }
+  
+  .fun-facts-area.bg-color .single-fun-fact p {
+    color: #ffffff;
+  }
+  
+  .single-fun-fact {
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .single-fun-fact h3 {
+    position: relative;
+    margin-top: 70px;
+    line-height: 1;
+    font-size: 50px;
+  }
+  
+  .single-fun-fact h3 .sign-icon {
+    display: inline-block;
+    font-size: 50px;
+    margin-left: -10px;
+    position: relative;
+    top: 2px;
+  }
+  
+  .single-fun-fact h3 .odometer {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .single-fun-fact p {
+    line-height: initial;
+    color: #434447;
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: 1;
+    font-weight: 500;
+    font-size: 20px;
+  }
