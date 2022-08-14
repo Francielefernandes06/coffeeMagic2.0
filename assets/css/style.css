@@ -9,7 +9,10 @@ body {
   }
 
 :root{
-
+  --color-primary:#bb7c39;
+  --color-secundary:#742520;
+  --color-terciary: #532f23;
+  --text-color-dark:#342220;
     
 }
 

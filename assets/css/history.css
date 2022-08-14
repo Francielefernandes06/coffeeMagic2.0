@@ -1,0 +1,60 @@
+.history-area {
+    background-image: url(../img/history/coffee.jpg);    
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+    
+  }
+  
+  .history-area::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    z-index: -1;
+    opacity: 0.2;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .history-content {
+    max-width: 500px;
+    margin-left: auto;
+  }
+  
+  .history-content span {
+    font-size: 25px;
+    color: var(--color-secundary);
+    font-family: "Pangolin", cursive;
+  }
+  
+  .history-content h3 {
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 12px;
+    margin-bottom: 15px;
+  }
+  
+  .history-content p {
+    color: #ffffff;
+    margin-bottom: 0;
+  }
+  
+  .history-content .history-btn {
+    margin-top: 30px;
+  }
+  
+  .history-content .history-btn .default-btn {
+    background-color: #e60027;
+    color: #ffffff;
+  }
+  
+  .history-content .history-btn .default-btn span {
+    background-color: #fbb403;
+  }
+  
