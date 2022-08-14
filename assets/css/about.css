@@ -1,5 +1,9 @@
 /* Abouy */
 
+.about-area{
+  height: 80vh;
+  background: red;
+}
 .about-content span {
     font-size: 25px;
     font-family: "Pangolin", cursive;
