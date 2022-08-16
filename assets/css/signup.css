@@ -1,0 +1,108 @@
+.signup-form {
+    background: #ffffff;
+    -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+            box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .signup-form h3 {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .signup-form form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .signup-form form .form-control {
+    height: 60px;
+    border: 1px solid #eeeeee;
+    border-radius: 3px;
+    color: #1d1d1d;
+    padding-left: 20px;
+    background: transparent;
+  }
+  
+  .signup-form form .form-control:focus {
+    border-color: #fbb403;
+    outline: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  
+  .signup-form form .form-control:focus::-webkit-input-placeholder {
+    color: transparent;
+  }
+  
+  .signup-form form .form-control:focus:-ms-input-placeholder {
+    color: transparent;
+  }
+  
+  .signup-form form .form-control:focus::-ms-input-placeholder {
+    color: transparent;
+  }
+  
+  .signup-form form .form-control:focus::placeholder {
+    color: transparent;
+  }
+  
+  .signup-form form .form-control::-webkit-input-placeholder {
+    color: #666666;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .signup-form form .form-control:-ms-input-placeholder {
+    color: #666666;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .signup-form form .form-control::-ms-input-placeholder {
+    color: #666666;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .signup-form form .form-control::placeholder {
+    color: #666666;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .signup-form form .form-check {
+    margin-top: 18px;
+  }
+  
+  .signup-form form .form-check .form-check-label {
+    color: #666666;
+    position: relative;
+    top: 0;
+  }
+  
+  .signup-form form .form-check-input {
+    margin-top: 4px;
+  }
+  
+  .signup-form form .send-btn {
+    margin-top: 20px;
+  }
+  
+  .signup-form form .send-btn .default-btn {
+    color: #ffffff;
+  }
+  
+  .signup-form form span {
+    display: block;
+    color: #666666;
+  }
+  
+  .signup-form form span a {
+    color: #fbb403;
+  }
+  
