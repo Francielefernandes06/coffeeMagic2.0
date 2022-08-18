@@ -89,3 +89,24 @@
     z-index: -1;
     opacity: 10%;
   }
+  @media screen and (max-width: 767px){
+    .delivery-image img{
+      width: 100%;
+    }
+    .delivery-area{
+      margin-top: 1rem;
+    }
+    .delivery-btn{
+      display: flex;
+      height: 3rem;
+      
+    }
+    .default-btn font{
+      text-align: center;
+      font-size: 0.75rem;
+    }
+    .default-btn-two font{
+      text-align: center;
+      font-size: 0.75rem;
+    }
+  }
