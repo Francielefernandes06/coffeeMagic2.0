@@ -1,0 +1,130 @@
+.sign-in-form {
+    background: #ffffff;
+    -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+            box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .sign-in-form .sign-in-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .sign-in-form .sign-in-title h3 {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 8px;
+  }
+  
+  .sign-in-form .sign-in-title p {
+    margin-bottom: 30px;
+  }
+  
+  .sign-in-form form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .sign-in-form form .form-control {
+    height: 60px;
+    border: 1px solid #eeeeee;
+    border-radius: 3px;
+    color: #1d1d1d;
+    padding-left: 20px;
+    background: transparent;
+  }
+  
+  .sign-in-form form .form-control:focus {
+    border-color: #fbb403;
+    outline: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  
+  .sign-in-form form .form-control:focus::-webkit-input-placeholder {
+    color: transparent;
+  }
+  
+  .sign-in-form form .form-control:focus:-ms-input-placeholder {
+    color: transparent;
+  }
+  
+  .sign-in-form form .form-control:focus::-ms-input-placeholder {
+    color: transparent;
+  }
+  
+  .sign-in-form form .form-control:focus::placeholder {
+    color: transparent;
+  }
+  
+  .sign-in-form form .form-control::-webkit-input-placeholder {
+    color: #666666;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .sign-in-form form .form-control:-ms-input-placeholder {
+    color: #666666;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .sign-in-form form .form-control::-ms-input-placeholder {
+    color: #666666;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .sign-in-form form .form-control::placeholder {
+    color: #666666;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .sign-in-form form .form-check {
+    margin-top: 18px;
+  }
+  
+  .sign-in-form form .form-check .form-check-label {
+    color: #666666;
+    position: relative;
+    top: -2px;
+    z-index: 1;
+  }
+  
+  .sign-in-form form .form-check-input {
+    margin-top: 3px;
+  }
+  
+  .sign-in-form form .send-btn {
+    margin-top: 20px;
+  }
+  
+  .sign-in-form form .send-btn .default-btn {
+    color: #ffffff;
+  }
+  
+  .sign-in-form form span {
+    display: block;
+    color: #777777;
+  }
+  
+  .sign-in-form form span a {
+    color: #fbb403;
+  }
+  
+  .sign-in-form .forgot-password {
+    margin-bottom: 0;
+    margin-top: -25px;
+    text-align: right;
+  }
+  
+  .sign-in-form .forgot-password a {
+    color: #777777;
+  }
+  
+  .sign-in-form .forgot-password a:hover {
+    color: #fbb403;
+  }

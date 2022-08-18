@@ -1,7 +1,7 @@
 /* Abouy */
 
 .about-area{
-  height: 80vh;
+  height: 100%;
   
 }
 .about-content span {
@@ -49,4 +49,18 @@
   
   .about-image img {
     border-radius: 10px;
+  }
+
+  @media screen and (max-width: 767px){
+    .about-image{
+      display: flex;
+      justify-content: center;
+    }
+    .about-image img{
+      width: 75%;
+      margin-top: 1rem;
+      border-radius: 6rem;
+    }
+
+
   }
