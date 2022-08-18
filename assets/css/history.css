@@ -71,5 +71,8 @@
     .history-content p{
       width: 95%;
     }
+    .history-content{
+      height: 45vh;
+    }
 
   }
