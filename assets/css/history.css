@@ -61,3 +61,15 @@
     background-color: #fbb403;
   }
   
+  @media screen and (max-width: 767px){
+    .history-area .container{
+      height: 100%;
+    }
+    .history-content h3 {
+      font-size: 2rem;
+    }
+    .history-content p{
+      width: 95%;
+    }
+
+  }

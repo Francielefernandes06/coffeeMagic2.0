@@ -344,3 +344,55 @@ Nav bar */
     top: -1px;
     margin-left: 10px;
   }
+  @media only screen and (max-width: 991px) {
+    .main-responsive-nav {
+      display: block;
+    }
+    .main-responsive-nav .main-responsive-menu {
+      position: relative;
+    }
+    .main-responsive-nav .main-responsive-menu.mean-container .mean-nav ul {
+      font-size: 15px;
+    }
+    .main-responsive-nav .main-responsive-menu.mean-container .mean-nav ul li a.active {
+      color: #fbb403;
+    }
+    .main-responsive-nav .main-responsive-menu.mean-container .mean-nav ul li a i {
+      display: none;
+    }
+    .main-responsive-nav .main-responsive-menu.mean-container .mean-nav ul li li a {
+      font-size: 14px;
+    }
+    .main-responsive-nav .main-responsive-menu.mean-container .navbar-nav {
+      overflow-y: scroll;
+      height: 336px;
+      -webkit-box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
+              box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
+    }
+    .main-responsive-nav .mean-container a.meanmenu-reveal {
+      color: #1d1d1d;
+    }
+    .main-responsive-nav .mean-container a.meanmenu-reveal span {
+      background: #1d1d1d;
+    }
+    .main-responsive-nav .mean-container .others-options {
+      display: none !important;
+    }
+    .main-responsive-nav .logo {
+      position: relative;
+      width: 50%;
+      z-index: 999;
+    }
+    .navbar-area {
+      background-color: #ffffff;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    .main-navbar {
+      display: none;
+    }
+    .others-option-for-responsive {
+      display: block;
+    }
+  }
+  
