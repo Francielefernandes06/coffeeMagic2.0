@@ -9,16 +9,14 @@ topo da pagina */
     height: 600px;
   }
   
-  .page-title-area.item-bg-1 {
-    background-image: url(../img/capa/capa.jpg);
-  }
+  
   
   .page-title-area::before {
     position: absolute;
     content: "";
     height: 100%;
     width: 100%;
-    background-color: #000000;
+
     z-index: -1;
     left: 0;
     right: 0;
@@ -78,17 +76,11 @@ topo da pagina */
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 88px;
     display: block;
   }
   .page-title-shape img{
     width: 100%;
   }
   
-  .page-title-shape-2 {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: none;
-  }
+  
