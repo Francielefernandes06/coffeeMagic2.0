@@ -29,7 +29,7 @@ topo da pagina */
   .page-title-content {
     text-align: center;
     margin-top: 35%;
-    margin-left: 25%;
+    margin-left: 40%; 
     display: flex;
     flex-direction: column;
     align-items: center;
