@@ -15,8 +15,8 @@
 }
   
 .slider{
-  width: 81%;
-  height: 402px;
+  width: 90%;
+  height:20rem;
   border-radius:15px;
   box-shadow:0 20px 30px rgba(0,0,0,0.2);
   position:relative;
@@ -116,6 +116,26 @@
   }
   .slider{
     height: 10rem;
+  }
+  .slides-wrapper{
+    width:200%;
+    height:100%;
+  }
+  .content h3{
+    font-size: 0.8rem;
+  }
+    
+} 
+@media screen and (1408px){
+  .products{
+    margin-top: 1rem;
+    height: 100%;
+  }
+  .products h2{
+    font-size: 1.75rem;
+  }
+  .slider{
+    height: 21rem;
   }
   .slides-wrapper{
     width:200%;
