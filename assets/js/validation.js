@@ -59,3 +59,74 @@ $(function(){
 
       });*/
   });
+  function validaPreenchimento(el){
+    if ($(el).val() != ""){
+        $(el).removeClass("is-invalid ");
+        return true;
+    } else {
+        $(el).addClass("is-invalid ");
+        return false;
+    }
+}
+function validarData(el){
+
+  data = $(el).val();
+  if (_isValidData(data)){
+      $(el).removeClass("is-invalid ");
+      return true;
+  } else {
+      $(el).addClass("is-invalid ");
+      return false;
+  }
+
+}
+function validarEmail(el){
+
+  data = $(el).val();
+  if (_isValidEmail(data)){
+      $(el).removeClass("is-invalid ");
+      return true;
+  } else {
+      $(el).addClass("is-invalid ");
+      return false;
+  }
+
+}
+function enviar(){
+
+  erro = false;
+  $("input, select").each(function(k,el){
+      if (!validaPreenchimento(el)){
+          erro = true;
+      }
+  });
+
+  if (!validarCpf($("#cpf"))){
+      erro = true;
+  }
+  if (!validarData($("#data"))){
+    erro = true;
+}
+
+if (!validarEmail($("#email"))){
+    erro = true;
+}
+
+if (erro == false){
+    $("#form").submit();
+}
+}
+$(function(){
+  $("#cpf").blur(function(){
+      validarCpf(this);
+  })
+  $("#email").blur(function(){
+      validarEmail(this);
+  })
+  $("#data").blur(function(){
+      validarData(this);
+  })
+});
+
+  
+ 

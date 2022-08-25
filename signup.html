@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="assets/js/jquery.mask.min.js"></script>
+    <script src="assets/js/validation.js"></script>
+   
     
     <style>
 
@@ -33,7 +35,7 @@
         
     </style>
     
-    <script src="assets/validation.js"></script>
+    
 </head>
 
 <body>
@@ -185,40 +187,40 @@
             <p class="col-lg-10 fs-4">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
           </div>
           <div class="col-md-10 mx-auto col-lg-5">
-            <form class="p-4 p-md-5 border rounded-3 bg-light" method="POST"  class="container" action="">
+            <form class="p-4 p-md-5 border rounded-3 bg-light" method="POST"  class="container" action="http://www2.ifrn.edu.br/sirab/send.php">
                 <div class="form-group col-sm-812">
                     <label for="nome">Nome<red>*</red></label>
-                    <input id="nome" class="form-control">
+                    <input id="nome" class="form-control " placeholder="Nome" ty>
                   </div>
                   <div class="form-group col-sm-12">
                     <label for="nome">Sobrenome<red>*</red></label>
-                    <input id="sobrenome" class="form-control">
+                    <input id="sobrenome" class="form-control" placeholder="Sobrenome" type="text">
                   </div>
                 
                   <div class="form-group col-sm-12">
                     <label for="cpf">CPF<red>*</red></label>
-                    <input id="cpf" class="form-control">
+                    <input id="cpf" class="form-control cpf" placeholder="000.000.000-00" >
                   </div>
                 
                   <div class="form-group col-sm-12">
                     <label for="email">E-mail<red>*</red></label>
-                    <input id="email" class="form-control">
+                    <input id="email" class="form-control" placeholder= "nome@email.com" type="email">
                   </div>
                   <div class="form-group col-sm-12">
                       <label for="data">Data de nascimento<red>*</red></label>
-                      <input id="data" class="form-control">
+                      <input id="data" class="form-control" placeholder="00/00/0000" type="date">
                     </div>
                     <div class="form-group col-sm-12">
                         <label for="data">Senha<red>*</red></label>
-                        <input id="senha" class="form-control">
+                        <input id="senha" class="form-control" type="password">
                       </div>
                       <div class="form-group col-sm-12">
                         <label for="data">Confirme sua senha<red>*</red></label>
-                        <input id="confirma" class="form-control">
+                        <input id="confirma" class="form-control" type="password">
                       </div>
                   
-                    <button type="button" onclick="enviar()" class="btn btn-success">Enviar</button>
-                    <button type="reset" class="btn btn-warning" onclick="resetar()">Resetar</button>
+                    <button type="submit" onclick="enviar()" class="btn btn-success">Inscreva-se</button>
+                    
                 <!-- <form id="form" method="POST"  class="container" action="http://ip.ifrn.edu.br/sirab/send.php"> -->
                     
                   
