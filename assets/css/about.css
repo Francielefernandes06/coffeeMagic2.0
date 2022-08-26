@@ -1,8 +1,9 @@
 /* Abouy */
 
 .about-area{
-  height: 75vh;
-  background-color: var(--color-primary);
+  height: 80vh;
+  width: 100vh;
+  
   
 }
 .about-content span {

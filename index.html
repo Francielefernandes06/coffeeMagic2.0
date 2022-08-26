@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="assets/css/carousel.css">
     <link rel="stylesheet" href="assets/css/topo.css">
     <link rel="stylesheet" href="assets/css/about.css">
-    <link rel="stylesheet" href="assets/css/products.css">
+    <link rel="stylesheet" href="assets/css/product.css">
     <link rel="stylesheet" href="assets/css/history.css">
     <link rel="stylesheet" href="assets/css/features.css">
     <link rel="stylesheet" href="assets/css/testimonial.css">
@@ -76,6 +76,12 @@
                             </a>
                         </li>
 
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">
+                                Contato
+                            </a>
+                        </li>
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
@@ -88,11 +94,7 @@
                             </ul>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link">
-                                Contatos
-                            </a>
-                        </li>
+                        
                     </ul>
 
                 </div>
@@ -119,8 +121,8 @@
 
                         <div class="container">
                             <div class="carousel-caption text-start">
-                                <h1>Coffee Magic</h1>
-                                <p>Venha saborear o melhor café da região</p>
+                                <h1 class="text-body">Coffee Magic</h1>
+                                <p class="text-dark">Venha saborear o melhor café da região</p>
                                 <p><a class="btn btn-lg btn-primary" href="#products">Products</a></p>
                             </div>
                         </div>
@@ -132,8 +134,8 @@
 
                         <div class="container">
                             <div class="carousel-caption">
-                                <h1>Bem Vindos</h1>
-                                <p>Sejam Bem Vindos ao Coffee Magic.</p>
+                                <h1 class="text-body">Bem Vindos</h1>
+                                <p class="text-dark">Sejam Bem Vindos ao Coffee Magic.</p>
                                 <p><a class="btn btn-lg btn-primary" href="#about">Saiba Mais</a></p>
                             </div>
                         </div>
@@ -145,8 +147,8 @@
 
                         <div class="container">
                             <div class="carousel-caption text-end">
-                                <h1>Coffee Magic</h1>
-                                <p>Conheça a Magia do nosso Café.</p>
+                                <h1 class="text-body">Coffee Magic</h1>
+                                <p class="text-dark">Conheça a Magia do nosso Café.</p>
                                 <p><a class="btn btn-lg btn-primary" href="#reviews">Avaliações</a></p>
                             </div>
                         </div>
@@ -178,130 +180,147 @@
 
 
     </header>
-    <section id="about" class="about-area ptb-100">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="about-content">
-                        <span>Sobre nós</span>
-                        <h3>Estamos aqui para oferecer o melhor café</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eusmod tempor incididunt
-                            ut
-                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-                        <p>Eusmod tempor incididunt labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                            gravida.</p>
-
-                        <div class="signature">
-                            <img src="assets/img/about/fran.jpg" width="100px" alt="image">
-                            <h4>Franciele Fernandes</h4>
-                            <span>CTO do Coffee Magic</span>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="about-image">
-                        <img src="assets/img/about/coffee.jpg" alt="image" width="600px">
-
-                    </div>
-                </div>
+    <section id="about" class="history-area ptb-100">
+        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center ">
+            <div class="col-md-5 p-lg-5 mx-auto my-5">
+              <h1 class="display-4 fw-normal text-white">Estamos aqui para oferecer o melhor café</h1>
+              <p class="lead fw-normal text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quo rerum enim corporis quos facilis nam deleniti dolorum labore, ullam, consequatur, aperiam quae praesentium. Fugit quas voluptatem tempora expedita provident.</p>
+              <a class="btn btn-dark" href="#">Saiba Mais</a>
             </div>
-        </div>
-    </section>
+            <div class="signature">
+                <img src="assets/img/about/fran.jpg" width="100px" alt="image">
+                <br>
+                <h4 class="txt-light text-white">Franciele Fernandes</h4>
+                <span class="text-white-50">CTO do Coffee Magic</span>
 
-    <section class="products">
-        <div class="container marketing">
-
-            <hr class="featurette-divider">
-        
-            <div class="row featurette">
-              <div class="col-md-7">
-                <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-                <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
-              </div>
-              <div class="col-md-5">
-                <img src="assets/img/products/Au lait.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="">
-        
-              </div>
-            </div>
-        
-            <hr class="featurette-divider">
-        
-            <div class="row featurette">
-              <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-                <p class="lead">Um cappuccino corresponde aproximadamente a 150 ml de bebida, composta por um espresso (30 ml) + partes iguais de leite e creme de leite.</p>
-              </div>
-              <div class="col-md-5 order-md-1">
-                <img src="assets/img/products/cappuccino.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="">
-        
-              </div>
-            </div>
-        
-            <hr class="featurette-divider">
-        
-            <div class="row featurette">
-              <div class="col-md-7">
-                <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-                <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
-              </div>
-              <div class="col-md-5">
-                <img src="assets/img/products/cortado.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="">
-        
-              </div>
-            </div>
-        
-            <hr class="featurette-divider">
-
-            <div class="row featurette">
-                <div class="col-md-7">
-                  <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-                  <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
                 </div>
-                <div class="col-md-5">
-                  <img src="assets/img/products/espreso-intenso.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="">
-          
-                </div>
-              </div>
-          
-              <hr class="featurette-divider">
-          
-              <div class="row featurette">
-                <div class="col-md-7 order-md-2">
-                  <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-                  <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
-                </div>
-                <div class="col-md-5 order-md-1">
-                  <img src="assets/img/products/Macchiato.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="">
-          
-                </div>
-              </div>
-          
-              <hr class="featurette-divider">
-          
-              <div class="row featurette">
-                <div class="col-md-7">
-                  <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-                  <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
-                </div>
-                <div class="col-md-5">
-                  <img src="assets/img/products/mocha.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="">
-          
-                </div>
-              </div>
-          
-              <hr class="featurette-divider">
-        
-            <!-- /END THE FEATURETTES -->
-        
+            
           </div>
-
-       
-        
-
-   
     </section>
+    
+    <section id="products" class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Nossos Melhores Produtos</h1>
+            <p class="lead text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime non eaque perferendis quisquam illum, qui iste praesentium, laudantium.</p>
+            <p>
+              <a href="#" class="btn btn-dark my-2">Clique aqui para comprar</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    
+      <div class="album py-5 bg-light">
+        <div class="container">
+    
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="assets/img/products/Au lait.jpg" alt="">
+    
+                <div class="card-body">
+                    <h2>Au Lait</h2>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae veritatis natus nesciunt. Esse corporis eligendi dicta sed itaque debitis nisi similique, in quo repellat voluptatem repudiandae rerum architecto, illum doloribus.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Visualizar</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Receita</button>
+                    </div>
+                    <small class="text-muted">R$10,00</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="assets/img/products/cappuccino.jpg" alt="">
+    
+                <div class="card-body">
+                    <h2>Cappuccino</h2>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus officia repellat doloribus modi eaque voluptate quidem nesciunt totam esse nisi perspiciatis, earum iste veritatis obcaecati omnis ducimus minus similique fugiat.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Visualizar</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Receita</button>
+                    </div>
+                    <small class="text-muted">R$12,00</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="assets/img/products/cortado.jpg" alt="">
+    
+                <div class="card-body">
+                    <h2>Cortado</h2>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab incidunt voluptatibus sequi dicta, soluta eaque autem voluptas, officia quasi deserunt quae quod necessitatibus ipsum blanditiis consequatur! Unde eligendi blanditiis.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Visualizar</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Receita</button>
+                    </div>
+                    <small class="text-muted">R$15,00</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="assets/img/products/espreso-intenso.jpg" alt="">
+    
+                <div class="card-body">
+                    <h2>Espresso Intenso</h2>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum consequatur corrupti, nemo ut vel officiis maxime. Asperiores reprehenderit minima est quisquam magni debitis. Consectetur accusantium tempora cumque consequuntur neque rerum.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Visualizar</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Receita</button>
+                    </div>
+                    <small class="text-muted">R$13,00</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="assets/img/products/Macchiato.jpg" alt="">
+    
+                <div class="card-body">
+                    <h2>Macchiato</h2>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ipsam numquam assumenda adipisci, quae quas at rem, eaque corrupti dicta quisquam rerum quam, in iste minus sequi illum libero asperiores. Consectetur accusantium tempora cumque.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Visualizar</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Receita</button>
+                    </div>
+                    <small class="text-muted">R$20,00</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="assets/img/products/mocha.jpg" alt="">
+    
+                <div class="card-body">
+                    <h2>Mocha</h2>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, temporibus reprehenderit ipsum saepe libero ut sapiente vel dignissimos voluptas tempore, quibusdam quas repudiandae hic harum repellat exercitationem et, perspiciatis nesciunt?</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Visualizar</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Receita</button>
+                    </div>
+                    <small class="text-muted">R$18,00</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+      </div>
 
   
     <section id="history" class="history-area ptb-100">
@@ -354,7 +373,7 @@
         </div>
     </div>
 
-    <section>
+    <section id="reviews">
         <div class="container px-4 py-5" id="custom-cards">
 
             <h2 class="pb-2 border-bottom">Avaliações de Clientes</h2>
@@ -438,11 +457,13 @@
                 <li class="nav-item"><a href="#about" class="nav-link px-2 text-muted">Sobre</a></li>
                 <li class="nav-item"><a href="#products" class="nav-link px-2 text-muted">Produtos</a></li>
                 <li class="nav-item"><a href="#reviews" class="nav-link px-2 text-muted">Avaliações</a></li>
-                <li class="nav-item"><a href="#derivery" class="nav-link px-2 text-muted">Delivery</a></li>
+                <li>
+                    <div class="scroll">
+                        <button class="default-btn" id="button-top">Topo</button>
+                    </div>
+                </li>
             </ul>
-            <div class="scroll">
-                <button class="default-btn" id="button-top">Sobe</button>
-            </div>
+            
         </footer>
     </div>
     
