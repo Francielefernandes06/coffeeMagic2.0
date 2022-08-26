@@ -27,7 +27,7 @@ a {
  justify-content: end;
 }
 .scroll button{
-  border: 1px solid black;
+  border: 1px solid var(--color-terciary);
   border-radius: 10px;
   width: 4rem;
   background-color: var(--color-primary);

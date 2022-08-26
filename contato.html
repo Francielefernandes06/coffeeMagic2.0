@@ -7,40 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffe Magic</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/carousel.css">
-    <link rel="stylesheet" href="assets/css/nav-bar.css">
-    <link rel="stylesheet" href="assets/css/topo.css">
-    <link rel="stylesheet" href="assets/css/about.css">
-    <link rel="stylesheet" href="assets/css/products.css">
-    <link rel="stylesheet" href="assets/css/history.css">
-    <link rel="stylesheet" href="assets/css/features.css">
-    <link rel="stylesheet" href="assets/css/testimonial.css">
-    <link rel="stylesheet" href="assets/css/overview.css">
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/footers/">
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/jquery.mask.min.js"></script>
-    <script src="assets/js/validation.js"></script>
-   
-    
-    <style>
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/carousel.css">
+<link rel="stylesheet" href="assets/css/topo.css">
+<link rel="stylesheet" href="assets/css/about.css">
+<link rel="stylesheet" href="assets/css/products.css">
+<link rel="stylesheet" href="assets/css/history.css">
+<link rel="stylesheet" href="assets/css/features.css">
+<link rel="stylesheet" href="assets/css/testimonial.css">
+<link rel="stylesheet" href="assets/css/overview.css">
+<link rel="stylesheet" href="assets/css/contatos.css">
+<link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/footers/">
 
-        .error{
-            background-color:#ffe2e2;
-            border:1px solid red;
-        }
-        
-    </style>
-    
-    
+
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top">
              <div class="container-fluid">
-                 <a class="navbar-brand" href="#">Cooffe Magic</a>
+                 <a class="navbar-brand" href="index.html">Cooffe Magic</a>
                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                      <span class="navbar-toggler-icon"></span>
@@ -54,13 +41,13 @@
                          </li>
  
                          <li class="nav-item">
-                            <a class="nav-link" href="contato.html">
+                            <a class="nav-link active">
                                 Contato
                             </a>
                         </li>
  
                          <li class="nav-item dropdown">
-                             <a class="nav-link dropdown-togglen active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                             <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                Pages
                              </a>
                              <ul class="dropdown-menu">
@@ -75,10 +62,9 @@
                      
                  </div>
              </div>
-         </nav>
-        
- 
-             <div class="page-title-area item-bg-1">
+        </nav>
+         <!-- Navbar Area -->
+        <div class="page-title-area item-bg-1">
                  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
                      <div class="carousel-indicators">
                          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
@@ -96,10 +82,10 @@
  
  
                              <div class="container">
-                                 <div class="carousel-caption text-start">
-                                     <h1>Coffee Magic</h1>
+                                 <div class="carousel-caption text-start ">
+                                     <h1 class="align-top">Coffee Magic</h1>
                                      <p>Venha saborear o melhor café da região</p>
-                                     <p><a class="btn btn-lg btn-primary" href="#products">Products</a></p>
+                                     <p><a class="btn btn-lg btn-primary" href="#products">Produtos</a></p>
                                  </div>
                              </div>
                          </div>
@@ -110,7 +96,7 @@
  
                              <div class="container">
                                  <div class="carousel-caption">
-                                     <h1>Bem Vindos</h1>
+                                     <h1 class="">Bem Vindos</h1>
                                      <p>Sejam Bem Vindos ao Coffee Magic.</p>
                                      <p><a class="btn btn-lg btn-primary" href="#about">Saiba Mais</a></p>
                                  </div>
@@ -140,71 +126,52 @@
                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
                          <span class="visually-hidden">Next</span>
                      </button>
-                 </div> 
+                 </div>
+ 
+ 
+ 
+                 <!-- Start Page Title Area -->
+ 
+ 
                  <div class="page-title-shape">
-                    <img src="assets/img/capa/down-shape.png" alt="image">
-                </div>              
+                     <img src="assets/img/capa/down-shape.png" alt="image">
+                 </div>
  
- 
-     </header>
-     
-     <div class="container col-xl-10 col-xxl-8 px-4 py-5">
-        <div class="row align-items-center g-lg-5 py-5">
-          <div class="col-lg-7 text-center text-lg-start">
-            <h1 class="display-4 fw-bold lh-1 mb-3">Faça seu cadastro.</h1>
-            <img src="assets/img/sign up/sign up.png" alt="sign up" width="400px">
-          </div>
-          <div class="col-md-10 mx-auto col-lg-5">
-            <form class="p-4 p-md-5 border rounded-3 bg-light" method="POST"  class="container" action="http://www2.ifrn.edu.br/sirab/send.php">
-                <h2 class="text-center text-lg-start">Cadastrar</h2>
-                <div class="form-group col-sm-812">
-                    <label for="nome">Nome<red>*</red></label>
-                    <input id="nome" class="form-control " placeholder="Nome" type="text" name="Nome">
-                  </div>
-                  <div class="form-group col-sm-12">
-                    <label for="nome">Sobrenome<red>*</red></label>
-                    <input id="sobrenome" class="form-control" placeholder="Sobrenome" type="text" name="Sobrenome">
-                  </div>
-                
-                  <div class="form-group col-sm-12">
-                    <label for="cpf">CPF<red>*</red></label>
-                    <input id="cpf" class="form-control cpf" placeholder="000.000.000-00" name="CPF">
-                  </div>
-                
-                  <div class="form-group col-sm-12">
-                    <label for="email">E-mail<red>*</red></label>
-                    <input id="email" class="form-control" placeholder= "nome@email.com" type="email" name="Email">
-                  </div>
-                  <div class="form-group col-sm-12">
-                      <label for="data">Data de nascimento<red>*</red></label>
-                      <input id="data" class="form-control" placeholder="00/00/0000" type="date" name="Data de nascimento">
-                    </div>
-                    <div class="form-group col-sm-12">
-                        <label for="data">Senha<red>*</red></label>
-                        <input id="senha" class="form-control" type="password" name="Senha">
-                      </div>
-                      <div class="form-group col-sm-12">
-                        <label for="data">Confirme sua senha<red>*</red></label>
-                        <input id="confirma" class="form-control" type="password" name="Confirme a senha">
-                      </div>
-                      <br>
-                    <button type="submit" onclick="enviar()" class="btn btn-success">Cadastre-se</button>
-                    <hr class="my-4">
-              <small class="text-muted">Ao clicar em Cadastre-se, você concorda com os termos de uso.</small>
-                    
-            </form>
-          </div>
         </div>
-      </div>
-    
+       
+    </header>
+    <div class="container-contact  history-area ptb-100" id="contact">
+        <h3 class="text-white">Contato</h3>
+        <form>
+            <div class="login-box">
+                <div class="user-box">
+                    <input type="text" name="nome" required="">
+                    <label 2="">Nome</label>
+                </div>
+                <div class="user-box">
+                    <input type="text" name="telefone" required="">
+                    <label 2="">Telefone</label>
+                </div>
+                <div class="user-box">
+                    <input type="tel" name="email" required="">
+                    <label 2="">Email</label>
+                </div>
+                <div class="user-box">
+                    <input type="text" name="mensagem" required="">
+                    <label 2="">Mensagem</label>
+                </div>
+                <button id="button"class="btn btn-light" type="submit">Enviar</button>
+
+            </div>
+
+        </form>
+
+
+    </div>
     
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
-        </script>
-        <script src="assets/js/jquery-3.6.0.min.js"></script>
-        <script src="assets/js/jquery.mask.min.js"></script>
-        <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
    
 </body>
 
